@@ -1,0 +1,249 @@
+@font-face {
+  font-family: Nunito-black;
+  src: url("./assets/fonts/Nunito/static/Nunito-Black.ttf");
+}
+@font-face {
+  font-family: Nunito-b;
+  src: url("./assets/fonts/Nunito/static/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url("./assets/fonts/Nunito/static/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: Nunito-semiblod;
+  src: url("./assets/fonts/Nunito/static/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Nunito-Medium;
+  src: url("./assets/fonts/Nunito/static/Nunito-Medium.ttf");
+}
+* {
+  font-family: "Nunito";
+}
+
+/* navbar style start here --------- */
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  width: 100%;
+  background: white !important;
+  border-bottom: 2px solid #c9c9c9;
+  margin: 10px 30px;
+  padding-bottom: 8px;
+}
+#navbarSupportedContent {
+  justify-content: right !important;
+}
+a.nav-link {
+  color: #00085d;
+  font-weight: 600;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #00085d;
+}
+.navbar {
+  padding: 0px;
+}
+a.nav-link.visit-website {
+  text-decoration: underline;
+}
+ul.navbar-nav {
+  text-transform: uppercase;
+}
+/* navbar style end here --------- */
+
+/* firts-section style start here --------- */
+.frist-section {
+  background: #f3f4ff;
+  border-radius: 25px;
+  margin: 11px 10px;
+  padding: 20px 20px 20px 35px;
+  position: relative;
+}
+
+h1.heading-label {
+  font-family: "Nunito-b";
+  font-weight: bold;
+  color: #00085e;
+  max-width: 440px;
+  font-size: 47px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 12px;
+}
+
+p.para-txt {
+  color: #24a8df;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.next-generation {
+  display: flex;
+}
+
+img.vector-img {
+  width: 2rem;
+  margin-right: 12px;
+}
+
+p.next-gen-txt {
+  max-width: 416px;
+  color: #00085d;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+button.learn-more-btn {
+  background: #46c6fb;
+  border-radius: 13px;
+  border: none;
+  padding: 12px;
+  color: #2333d1;
+  font-weight: bold;
+  margin-right: 12px;
+}
+button.book-demo-btn {
+  background: #2333d1;
+  border-radius: 13px;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+/* firts-section style end here --------- */
+
+/* How it Works style start here --------- */
+
+.how-it-work {
+  text-align: center;
+  margin: 60px 0px;
+}
+
+h1.how-it-work-txt {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito-b";
+}
+img.how-it-work-img {
+  width: 65%;
+  margin-top: 15px;
+}
+/* How it Works style end here --------- */
+
+/* key Features style start here --------- */
+
+.key-features {
+  background: #00085e;
+  color: #fff;
+
+  padding: 70px;
+}
+
+p.key-feature-txt {
+  margin: 0px 0px 6px 0px;
+}
+.circle-1,
+.circle-2,
+.circle-3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #2d358d;
+  border: 1px solid #00085d;
+}
+img.mutli-circle-img {
+  width: 12rem;
+}
+.circle-group {
+  position: relative;
+}
+.circle-1 {
+  position: absolute;
+  top: 8px;
+  left: -2px;
+}
+.circle-2 {
+  position: absolute;
+  top: 5px;
+  left: -4px;
+}
+.circle-3 {
+  position: absolute;
+  top: 2px;
+}
+p.feature-heading {
+  margin: 0px;
+  font-weight: bold;
+  color: #ccd0ff;
+  font-size: 15px;
+}
+p.feature-para {
+  margin: 0px;
+  color: #e9c6da;
+  font-size: 13px;
+}
+.flex {
+  margin: 12px 0px;
+  display: flex;
+}
+.key-feature-content {
+  margin-left: 54px;
+}
+/* key Features style end here --------- */
+
+/* testimonials style start here --------- */
+.testimonials {
+  padding: 70px;
+}
+.testimonials-card {
+  display: flex;
+  box-shadow: 0px 14px 55px rgb(0 0 0 / 14%);
+  border-radius: 13px;
+  background: #fff;
+  padding: 12px 18px;
+  margin: 30px 0px 15px 0px;
+}
+img.user-logo {
+  width: 50px;
+  height: 50px;
+}
+p.user-role {
+  margin: 0px;
+}
+p.user-name {
+  margin: 0px;
+}
+.user-details {
+  margin-left: 15px;
+}
+img.five-star-img {
+  width: 7rem;
+  height: 20px;
+  margin-bottom: 8px;
+}
+p.user-info-txt {
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+}
+p.user-name-txt {
+  margin: 0px;
+  font-size: 13px;
+  font-style: italic;
+}
+p.description {
+  font-size: 13px;
+  font-weight: bold;
+}
+.margin-auto {
+  margin: auto 0px;
+}
+/* testimonials style end here --------- */
