@@ -54,15 +54,23 @@ a.nav-link.visit-website {
 ul.navbar-nav {
   text-transform: uppercase;
 }
+
+button.navbar-toggler:focus-visible,
+button.navbar-toggler:hover,
+button.navbar-toggler:active {
+  outline: none;
+}
 /* navbar style end here --------- */
 
 /* firts-section style start here --------- */
 .frist-section {
   background: #f3f4ff;
+  background-image: url(./assets/img/Tiny_particals.png);
   border-radius: 25px;
   margin: 11px 10px;
   padding: 20px 20px 20px 35px;
   position: relative;
+  background-size: cover;
 }
 
 h1.heading-label {
@@ -117,6 +125,17 @@ button.book-demo-btn {
 
 .btn-group {
   margin-top: 20px;
+}
+
+.content-first {
+  margin: auto;
+}
+
+img.home-gif {
+  mix-blend-mode: multiply;
+  /* width: 80%; */
+  max-width: 400px;
+  float: right;
 }
 /* firts-section style end here --------- */
 
@@ -247,3 +266,198 @@ p.description {
   margin: auto 0px;
 }
 /* testimonials style end here --------- */
+
+/* get-started style start here --------- */
+
+.get-started {
+  text-align: center;
+  background: #e4f7ff;
+  margin: 15px auto 40px auto;
+  padding: 54px;
+  background-image: url(./assets/img/Tiny_particals.png);
+  background-size: cover;
+}
+.subscribe-field {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+input.form-control {
+  background: #ffffff;
+  border-radius: 54.5px;
+  border: none;
+  padding: 13px 20px;
+  height: 66px;
+}
+input.form-control:focus-visible {
+  outline: none;
+}
+button.subscribe-btn {
+  background: #00085e;
+  border-radius: 45.5px;
+  color: #fff;
+  padding: 15px 30px;
+  right: 8px;
+  top: 6px;
+  border: none;
+}
+h1.get-start-heading {
+  font-family: "Nunito-b";
+  color: #000000;
+}
+p.start-desc {
+  color: #5a5a5a;
+}
+/* get-started style end here --------- */
+
+/* latest post style start here --------- */
+.latest-post {
+  padding: 70px;
+}
+img.latest-post-img {
+  width: 100%;
+}
+h1.latest-post-heading {
+  font-family: "Nunito-b";
+  margin-bottom: 40px;
+  color: #000000;
+}
+p.card-heading {
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 8px 0px;
+}
+p.post-description {
+  font-size: 18px;
+  color: #282828;
+}
+.post-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+  padding-top: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-bottom: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  height: 100%;
+}
+img.post-circle {
+  width: 18rem;
+  position: absolute;
+  right: -55px;
+  z-index: -1;
+  bottom: -10rem;
+}
+/* latest post style end here --------- */
+/* footer style start here --------- */
+
+.footer {
+  background: #e4f7ff;
+  padding: 60px 40px 20px 40px;
+}
+h1.footer-heading {
+  font-family: "Nunito-b";
+  color: #00344a;
+}
+
+p.footer-desc {
+  color: #00344a;
+  font-size: 15px;
+  font-weight: bold;
+}
+.logo-footer-col {
+  margin: auto 0px;
+}
+
+ul.footer-menu-ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin-top: 35px;
+}
+li.footer-menu-li {
+  margin-right: 40px;
+}
+a.footer-menu-a {
+  color: #00344a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer-info {
+  border-bottom: 1px solid #00344a;
+  padding-bottom: 40px;
+}
+
+img.social-media-img {
+  padding: 20px;
+}
+.footer-social {
+  margin-top: 25px;
+}
+
+p.term-txt {
+  margin: auto 10px auto 10px;
+  font-weight: bold;
+  color: #00344a;
+  font-size: 18px;
+}
+.img-group {
+  border: 1px solid #00344a;
+  border-radius: 60px;
+  width: 69px;
+  height: 69px;
+  margin: 0px 5px;
+}
+.social {
+  justify-content: right;
+}
+.term {
+  justify-content: left;
+}
+.d-flex {
+  display: flex !important;
+  margin-bottom: 20px;
+}
+.copyright {
+  color: #00344a;
+  text-align: center;
+}
+p.copyright-txt {
+  font-weight: bold;
+}
+/* footer style end here --------- */
+
+/* custom responsive css */
+@media (min-width: 576px) {
+  .logo-footer-col {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.heading-label {
+    font-size: 35px;
+  }
+  .social,
+  .term {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 910px) {
+  .home-gif {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .multicricle {
+    display: none;
+  }
+  .social,
+  .term {
+    justify-content: center;
+  }
+}
