@@ -143,7 +143,9 @@ img.home-gif {
 
 .how-it-work {
   text-align: center;
-  margin: 60px 0px;
+  margin: 60px auto;
+  max-width: 800px;
+  position: relative;
 }
 
 h1.how-it-work-txt {
@@ -154,6 +156,57 @@ h1.how-it-work-txt {
 img.how-it-work-img {
   width: 65%;
   margin-top: 15px;
+}
+.right-border {
+  border-right: 2px solid #bbbbbb;
+}
+.text-content {
+  text-align: left;
+}
+.text-content-1 {
+  text-align: right;
+}
+h2.how-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+p.how-para-txt {
+  font-size: 14px;
+  color: #313131;
+}
+.circle-num {
+  background: #46c5fb;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+}
+.circle-num-1 {
+  background: #46c5fb;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 60px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.api-img {
+  width: 15rem;
+}
+.git-chain-img {
+  width: 20rem;
+}
+
+img.dashed-line {
+  position: absolute;
+  width: 25%;
+  right: 21rem;
+  top: 9rem;
 }
 /* How it Works style end here --------- */
 
@@ -350,6 +403,86 @@ img.post-circle {
   bottom: -10rem;
 }
 /* latest post style end here --------- */
+
+/* launch form style start here --------- */
+
+.left-content {
+  background-color: #00085d;
+  color: white;
+  padding: 30px;
+}
+.launch-heading {
+  color: #a3abfb;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.launch-para-txt {
+  color: #e9c6da;
+  border-bottom: 1px solid #a3abfb;
+  padding-bottom: 20px;
+}
+.list-li {
+  color: #e9c6da;
+  margin: 15px 0px;
+  list-style: none;
+}
+
+.launch-list {
+  margin-top: 25px;
+}
+li:before {
+  content: "\2022";
+  display: block;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -24px;
+  top: -9px;
+  color: #a3abfb;
+  font-size: 26px;
+}
+.list-heading {
+  color: #a3abfb;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.form-heading {
+  color: #000;
+  font-weight: bold;
+  font-size: 23px;
+}
+.right-content {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px
+}
+.form-control-demo {
+  width: 100%;
+  border: 1px solid #b3b0b0;
+  border-radius: 6px;
+  height: 42px;
+
+}
+.inp-box {
+  margin-top: 15px;
+}
+button.request-btn {
+  width: 100%;
+  border: none;
+  background: #00085D;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.form-control-demo:focus-visible{
+  outline: none;
+}
+
+/* launch form style end here --------- */
+
 /* footer style start here --------- */
 
 .footer {
@@ -447,6 +580,15 @@ p.copyright-txt {
   .term {
     justify-content: center;
   }
+  .text-content-1 {
+    text-align: left !important;
+}
+.how-it-work {
+  padding: 30px;
+}
+.right-border {
+  border-right: none;
+}
 }
 
 @media (max-width: 910px) {
